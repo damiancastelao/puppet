@@ -15,7 +15,7 @@ class snap_package {
 }
 
 class necesarios_package {
-      package { ['emacs', 'virtualbox', 'virtualbox-guest-additions-iso']:
+      package { ['wireshark','git', 'emacs', 'virtualbox', 'virtualbox-guest-additions-iso']:
       	      ensure => installed,
 	      }
       class { 'docker': 
