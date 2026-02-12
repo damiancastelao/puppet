@@ -3,7 +3,7 @@ class equipos {
     one_primary_ipv4 => false, 
     one_primary_ipv6 => false,
     entries => {
-    	    '10.0.9.253' => [ 'perlanegra00' ],
+    	    '10.0.9.253' => [ 'aula09-profesor' ],
 	    '10.0.9.1' => [ 'perlanegra01' ],
 	    '10.0.9.2' => [ 'perlanegra02' ],
 	    '10.0.9.3' => [ 'perlanegra03' ],
